@@ -1,13 +1,27 @@
 //  Game =>
 //     This board =>
-//            box
+//            fbox
 //     History =>
-
+import Square from "./assets/Square";
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      <div className="flex">
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div className="flex">
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div className="flex">
+        <Square />
+        <Square />
+        <Square />
+      </div>
+    </>
   );
 };
 
